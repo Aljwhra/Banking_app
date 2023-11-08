@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D26F26E82AF8481A004CB532 /* BankingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F26E72AF8481A004CB532 /* BankingAppApp.swift */; };
+		D26F26EA2AF8481A004CB532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F26E92AF8481A004CB532 /* ContentView.swift */; };
+		D26F26EC2AF8481B004CB532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26F26EB2AF8481B004CB532 /* Assets.xcassets */; };
+		D26F26EF2AF8481B004CB532 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26F26EE2AF8481B004CB532 /* Preview Assets.xcassets */; };
+		D26F26F82AF84AFE004CB532 /* Welcome_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F26F72AF84AFE004CB532 /* Welcome_View.swift */; };
+		D26F27042AF84D79004CB532 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D26F26FF2AF84D79004CB532 /* SpaceGrotesk-SemiBold.ttf */; };
+		D26F27052AF84D79004CB532 /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D26F27002AF84D79004CB532 /* SpaceGrotesk-Light.ttf */; };
+		D26F27062AF84D79004CB532 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D26F27012AF84D79004CB532 /* SpaceGrotesk-Bold.ttf */; };
+		D26F27072AF84D79004CB532 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D26F27022AF84D79004CB532 /* SpaceGrotesk-Regular.ttf */; };
+		D26F27082AF84D79004CB532 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D26F27032AF84D79004CB532 /* SpaceGrotesk-Medium.ttf */; };
+		D26F270B2AF8540E004CB532 /* Onboarding_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F270A2AF8540E004CB532 /* Onboarding_View.swift */; };
+		D26F270D2AF85555004CB532 /* OnboardingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F270C2AF85555004CB532 /* OnboardingItems.swift */; };
+		D26F27102AF875A2004CB532 /* Create_Account_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F270F2AF875A2004CB532 /* Create_Account_View.swift */; };
+		D26F27122AF88FFD004CB532 /* Sign_In_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27112AF88FFD004CB532 /* Sign_In_View.swift */; };
+		D26F27142AF892B2004CB532 /* Home_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27132AF892B2004CB532 /* Home_View.swift */; };
+		D26F27162AF8A27E004CB532 /* Chart_card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27152AF8A27E004CB532 /* Chart_card.swift */; };
+		D26F27192AF8B07B004CB532 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27182AF8B07B004CB532 /* Transactions.swift */; };
+		D26F271B2AF8CF66004CB532 /* Transactions_history.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F271A2AF8CF66004CB532 /* Transactions_history.swift */; };
+		D26F271D2AF8F385004CB532 /* Services_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F271C2AF8F385004CB532 /* Services_View.swift */; };
+		D26F271F2AF90CE2004CB532 /* Card_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F271E2AF90CE2004CB532 /* Card_Settings.swift */; };
+		D26F27212AF9F221004CB532 /* Bank_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27202AF9F221004CB532 /* Bank_Card.swift */; };
+		D26F27232AF9F851004CB532 /* Playback_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27222AF9F851004CB532 /* Playback_View.swift */; };
+		D26F27252AFA024E004CB532 /* Bank_Small_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27242AFA024E004CB532 /* Bank_Small_Card.swift */; };
+		D26F27272AFA0601004CB532 /* Recent_Transactions1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27262AFA0601004CB532 /* Recent_Transactions1.swift */; };
+		D26F27292AFA1473004CB532 /* Statistic_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27282AFA1473004CB532 /* Statistic_View.swift */; };
+		D26F272B2AFA18A7004CB532 /* Statistic_Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F272A2AFA18A7004CB532 /* Statistic_Chart.swift */; };
+		D26F272D2AFA3227004CB532 /* Dashboard_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F272C2AFA3227004CB532 /* Dashboard_View.swift */; };
+		D26F272F2AFA4A95004CB532 /* Card_Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F272E2AFA4A95004CB532 /* Card_Balance.swift */; };
+		D26F27312AFA4ED8004CB532 /* Token_Bonus1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27302AFA4ED8004CB532 /* Token_Bonus1.swift */; };
+		D26F27332AFA5A13004CB532 /* Token_Bonus2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27322AFA5A13004CB532 /* Token_Bonus2.swift */; };
+		D26F27352AFAB3F3004CB532 /* Recent_Transactions2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27342AFAB3F3004CB532 /* Recent_Transactions2.swift */; };
+		D26F273A2AFB2839004CB532 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27392AFB2839004CB532 /* Search.swift */; };
+		D26F273C2AFB2FEC004CB532 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273B2AFB2FEC004CB532 /* Overview.swift */; };
+		D26F273E2AFB3424004CB532 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273D2AFB3424004CB532 /* Client.swift */; };
+		D26F27402AFBBCF7004CB532 /* Your_Cards .swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273F2AFBBCF7004CB532 /* Your_Cards .swift */; };
+		D26F27422AFBC539004CB532 /* Income_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27412AFBC539004CB532 /* Income_View.swift */; };
+		D26F27442AFBCD20004CB532 /* Profile_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27432AFBCD20004CB532 /* Profile_Card.swift */; };
+		D26F27462AFBDC1D004CB532 /* Income_History_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27452AFBDC1D004CB532 /* Income_History_View.swift */; };
+		D26F27482AFBE81D004CB532 /* Transactions_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27472AFBE81D004CB532 /* Transactions_Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D26F26E42AF8481A004CB532 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26F26E72AF8481A004CB532 /* BankingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingAppApp.swift; sourceTree = "<group>"; };
+		D26F26E92AF8481A004CB532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D26F26EB2AF8481B004CB532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D26F26EE2AF8481B004CB532 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D26F26F72AF84AFE004CB532 /* Welcome_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome_View.swift; sourceTree = "<group>"; };
+		D26F26FF2AF84D79004CB532 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		D26F27002AF84D79004CB532 /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		D26F27012AF84D79004CB532 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		D26F27022AF84D79004CB532 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		D26F27032AF84D79004CB532 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		D26F27092AF84E0E004CB532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D26F270A2AF8540E004CB532 /* Onboarding_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding_View.swift; sourceTree = "<group>"; };
+		D26F270C2AF85555004CB532 /* OnboardingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItems.swift; sourceTree = "<group>"; };
+		D26F270F2AF875A2004CB532 /* Create_Account_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create_Account_View.swift; sourceTree = "<group>"; };
+		D26F27112AF88FFD004CB532 /* Sign_In_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign_In_View.swift; sourceTree = "<group>"; };
+		D26F27132AF892B2004CB532 /* Home_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_View.swift; sourceTree = "<group>"; };
+		D26F27152AF8A27E004CB532 /* Chart_card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_card.swift; sourceTree = "<group>"; };
+		D26F27182AF8B07B004CB532 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		D26F271A2AF8CF66004CB532 /* Transactions_history.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions_history.swift; sourceTree = "<group>"; };
+		D26F271C2AF8F385004CB532 /* Services_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services_View.swift; sourceTree = "<group>"; };
+		D26F271E2AF90CE2004CB532 /* Card_Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_Settings.swift; sourceTree = "<group>"; };
+		D26F27202AF9F221004CB532 /* Bank_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_Card.swift; sourceTree = "<group>"; };
+		D26F27222AF9F851004CB532 /* Playback_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playback_View.swift; sourceTree = "<group>"; };
+		D26F27242AFA024E004CB532 /* Bank_Small_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank_Small_Card.swift; sourceTree = "<group>"; };
+		D26F27262AFA0601004CB532 /* Recent_Transactions1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent_Transactions1.swift; sourceTree = "<group>"; };
+		D26F27282AFA1473004CB532 /* Statistic_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic_View.swift; sourceTree = "<group>"; };
+		D26F272A2AFA18A7004CB532 /* Statistic_Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistic_Chart.swift; sourceTree = "<group>"; };
+		D26F272C2AFA3227004CB532 /* Dashboard_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard_View.swift; sourceTree = "<group>"; };
+		D26F272E2AFA4A95004CB532 /* Card_Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_Balance.swift; sourceTree = "<group>"; };
+		D26F27302AFA4ED8004CB532 /* Token_Bonus1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Bonus1.swift; sourceTree = "<group>"; };
+		D26F27322AFA5A13004CB532 /* Token_Bonus2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Bonus2.swift; sourceTree = "<group>"; };
+		D26F27342AFAB3F3004CB532 /* Recent_Transactions2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent_Transactions2.swift; sourceTree = "<group>"; };
+		D26F27392AFB2839004CB532 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		D26F273B2AFB2FEC004CB532 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		D26F273D2AFB3424004CB532 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		D26F273F2AFBBCF7004CB532 /* Your_Cards .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Your_Cards .swift"; sourceTree = "<group>"; };
+		D26F27412AFBC539004CB532 /* Income_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income_View.swift; sourceTree = "<group>"; };
+		D26F27432AFBCD20004CB532 /* Profile_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Card.swift; sourceTree = "<group>"; };
+		D26F27452AFBDC1D004CB532 /* Income_History_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income_History_View.swift; sourceTree = "<group>"; };
+		D26F27472AFBE81D004CB532 /* Transactions_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions_Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D26F26E12AF8481A004CB532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D26F26DB2AF8481A004CB532 = {
+			isa = PBXGroup;
+			children = (
+				D26F26E62AF8481A004CB532 /* BankingApp */,
+				D26F26E52AF8481A004CB532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D26F26E52AF8481A004CB532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D26F26E42AF8481A004CB532 /* BankingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D26F26E62AF8481A004CB532 /* BankingApp */ = {
+			isa = PBXGroup;
+			children = (
+				D26F27092AF84E0E004CB532 /* Info.plist */,
+				D26F26E72AF8481A004CB532 /* BankingAppApp.swift */,
+				D26F26E92AF8481A004CB532 /* ContentView.swift */,
+				D26F26F62AF84ADA004CB532 /* Onboarding */,
+				D26F270E2AF8756A004CB532 /* Authentication */,
+				D26F26F52AF84A98004CB532 /* View */,
+				D26F27172AF8AB57004CB532 /* Components */,
+				D26F26EB2AF8481B004CB532 /* Assets.xcassets */,
+				D26F26FE2AF84D0D004CB532 /* SpaceGrotesk-Font */,
+				D26F26ED2AF8481B004CB532 /* Preview Content */,
+			);
+			path = BankingApp;
+			sourceTree = "<group>";
+		};
+		D26F26ED2AF8481B004CB532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D26F26EE2AF8481B004CB532 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D26F26F52AF84A98004CB532 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D26F27132AF892B2004CB532 /* Home_View.swift */,
+				D26F271C2AF8F385004CB532 /* Services_View.swift */,
+				D26F27222AF9F851004CB532 /* Playback_View.swift */,
+				D26F27282AFA1473004CB532 /* Statistic_View.swift */,
+				D26F272C2AFA3227004CB532 /* Dashboard_View.swift */,
+				D26F273B2AFB2FEC004CB532 /* Overview.swift */,
+				D26F27412AFBC539004CB532 /* Income_View.swift */,
+				D26F27452AFBDC1D004CB532 /* Income_History_View.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D26F26F62AF84ADA004CB532 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D26F26F72AF84AFE004CB532 /* Welcome_View.swift */,
+				D26F270A2AF8540E004CB532 /* Onboarding_View.swift */,
+				D26F270C2AF85555004CB532 /* OnboardingItems.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D26F26FE2AF84D0D004CB532 /* SpaceGrotesk-Font */ = {
+			isa = PBXGroup;
+			children = (
+				D26F27012AF84D79004CB532 /* SpaceGrotesk-Bold.ttf */,
+				D26F27002AF84D79004CB532 /* SpaceGrotesk-Light.ttf */,
+				D26F27032AF84D79004CB532 /* SpaceGrotesk-Medium.ttf */,
+				D26F27022AF84D79004CB532 /* SpaceGrotesk-Regular.ttf */,
+				D26F26FF2AF84D79004CB532 /* SpaceGrotesk-SemiBold.ttf */,
+			);
+			path = "SpaceGrotesk-Font";
+			sourceTree = "<group>";
+		};
+		D26F270E2AF8756A004CB532 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D26F270F2AF875A2004CB532 /* Create_Account_View.swift */,
+				D26F27112AF88FFD004CB532 /* Sign_In_View.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D26F27172AF8AB57004CB532 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D26F27152AF8A27E004CB532 /* Chart_card.swift */,
+				D26F27182AF8B07B004CB532 /* Transactions.swift */,
+				D26F271A2AF8CF66004CB532 /* Transactions_history.swift */,
+				D26F271E2AF90CE2004CB532 /* Card_Settings.swift */,
+				D26F27202AF9F221004CB532 /* Bank_Card.swift */,
+				D26F27242AFA024E004CB532 /* Bank_Small_Card.swift */,
+				D26F27262AFA0601004CB532 /* Recent_Transactions1.swift */,
+				D26F27342AFAB3F3004CB532 /* Recent_Transactions2.swift */,
+				D26F272A2AFA18A7004CB532 /* Statistic_Chart.swift */,
+				D26F272E2AFA4A95004CB532 /* Card_Balance.swift */,
+				D26F27302AFA4ED8004CB532 /* Token_Bonus1.swift */,
+				D26F27322AFA5A13004CB532 /* Token_Bonus2.swift */,
+				D26F27392AFB2839004CB532 /* Search.swift */,
+				D26F273D2AFB3424004CB532 /* Client.swift */,
+				D26F273F2AFBBCF7004CB532 /* Your_Cards .swift */,
+				D26F27432AFBCD20004CB532 /* Profile_Card.swift */,
+				D26F27472AFBE81D004CB532 /* Transactions_Card.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D26F26E32AF8481A004CB532 /* BankingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D26F26F22AF8481B004CB532 /* Build configuration list for PBXNativeTarget "BankingApp" */;
+			buildPhases = (
+				D26F26E02AF8481A004CB532 /* Sources */,
+				D26F26E12AF8481A004CB532 /* Frameworks */,
+				D26F26E22AF8481A004CB532 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankingApp;
+			packageProductDependencies = (
+			);
+			productName = BankingApp;
+			productReference = D26F26E42AF8481A004CB532 /* BankingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D26F26DC2AF8481A004CB532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D26F26E32AF8481A004CB532 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D26F26DF2AF8481A004CB532 /* Build configuration list for PBXProject "BankingApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D26F26DB2AF8481A004CB532;
+			packageReferences = (
+			);
+			productRefGroup = D26F26E52AF8481A004CB532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D26F26E32AF8481A004CB532 /* BankingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D26F26E22AF8481A004CB532 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F26EF2AF8481B004CB532 /* Preview Assets.xcassets in Resources */,
+				D26F26EC2AF8481B004CB532 /* Assets.xcassets in Resources */,
+				D26F27072AF84D79004CB532 /* SpaceGrotesk-Regular.ttf in Resources */,
+				D26F27062AF84D79004CB532 /* SpaceGrotesk-Bold.ttf in Resources */,
+				D26F27052AF84D79004CB532 /* SpaceGrotesk-Light.ttf in Resources */,
+				D26F27082AF84D79004CB532 /* SpaceGrotesk-Medium.ttf in Resources */,
+				D26F27042AF84D79004CB532 /* SpaceGrotesk-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D26F26E02AF8481A004CB532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26F27352AFAB3F3004CB532 /* Recent_Transactions2.swift in Sources */,
+				D26F27192AF8B07B004CB532 /* Transactions.swift in Sources */,
+				D26F27292AFA1473004CB532 /* Statistic_View.swift in Sources */,
+				D26F26F82AF84AFE004CB532 /* Welcome_View.swift in Sources */,
+				D26F27482AFBE81D004CB532 /* Transactions_Card.swift in Sources */,
+				D26F270B2AF8540E004CB532 /* Onboarding_View.swift in Sources */,
+				D26F271B2AF8CF66004CB532 /* Transactions_history.swift in Sources */,
+				D26F273C2AFB2FEC004CB532 /* Overview.swift in Sources */,
+				D26F27402AFBBCF7004CB532 /* Your_Cards .swift in Sources */,
+				D26F271F2AF90CE2004CB532 /* Card_Settings.swift in Sources */,
+				D26F27272AFA0601004CB532 /* Recent_Transactions1.swift in Sources */,
+				D26F270D2AF85555004CB532 /* OnboardingItems.swift in Sources */,
+				D26F26EA2AF8481A004CB532 /* ContentView.swift in Sources */,
+				D26F27422AFBC539004CB532 /* Income_View.swift in Sources */,
+				D26F27442AFBCD20004CB532 /* Profile_Card.swift in Sources */,
+				D26F272D2AFA3227004CB532 /* Dashboard_View.swift in Sources */,
+				D26F27212AF9F221004CB532 /* Bank_Card.swift in Sources */,
+				D26F27102AF875A2004CB532 /* Create_Account_View.swift in Sources */,
+				D26F27142AF892B2004CB532 /* Home_View.swift in Sources */,
+				D26F27332AFA5A13004CB532 /* Token_Bonus2.swift in Sources */,
+				D26F271D2AF8F385004CB532 /* Services_View.swift in Sources */,
+				D26F273E2AFB3424004CB532 /* Client.swift in Sources */,
+				D26F272B2AFA18A7004CB532 /* Statistic_Chart.swift in Sources */,
+				D26F27462AFBDC1D004CB532 /* Income_History_View.swift in Sources */,
+				D26F27312AFA4ED8004CB532 /* Token_Bonus1.swift in Sources */,
+				D26F272F2AFA4A95004CB532 /* Card_Balance.swift in Sources */,
+				D26F27122AF88FFD004CB532 /* Sign_In_View.swift in Sources */,
+				D26F27162AF8A27E004CB532 /* Chart_card.swift in Sources */,
+				D26F27252AFA024E004CB532 /* Bank_Small_Card.swift in Sources */,
+				D26F273A2AFB2839004CB532 /* Search.swift in Sources */,
+				D26F27232AF9F851004CB532 /* Playback_View.swift in Sources */,
+				D26F26E82AF8481A004CB532 /* BankingAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D26F26F02AF8481B004CB532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D26F26F12AF8481B004CB532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D26F26F32AF8481B004CB532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VL567NGX26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aljwhra.BankingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D26F26F42AF8481B004CB532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BankingApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VL567NGX26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BankingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aljwhra.BankingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D26F26DF2AF8481A004CB532 /* Build configuration list for PBXProject "BankingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F26F02AF8481B004CB532 /* Debug */,
+				D26F26F12AF8481B004CB532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D26F26F22AF8481B004CB532 /* Build configuration list for PBXNativeTarget "BankingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26F26F32AF8481B004CB532 /* Debug */,
+				D26F26F42AF8481B004CB532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D26F26DC2AF8481A004CB532 /* Project object */;
+}

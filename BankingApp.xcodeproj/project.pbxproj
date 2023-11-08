@@ -46,6 +46,12 @@
 		D26F27442AFBCD20004CB532 /* Profile_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27432AFBCD20004CB532 /* Profile_Card.swift */; };
 		D26F27462AFBDC1D004CB532 /* Income_History_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27452AFBDC1D004CB532 /* Income_History_View.swift */; };
 		D26F27482AFBE81D004CB532 /* Transactions_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27472AFBE81D004CB532 /* Transactions_Card.swift */; };
+		D2C77BAD2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BAC2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift */; };
+		D2C77BAF2AFBF79E00ACE8ED /* QR_Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BAE2AFBF79E00ACE8ED /* QR_Cards.swift */; };
+		D2C77BB12AFBFF8500ACE8ED /* Managerment1_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB02AFBFF8500ACE8ED /* Managerment1_View.swift */; };
+		D2C77BB32AFC0AE000ACE8ED /* Total_Income1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB22AFC0AE000ACE8ED /* Total_Income1.swift */; };
+		D2C77BB52AFC0E1900ACE8ED /* Total_Income2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB42AFC0E1900ACE8ED /* Total_Income2.swift */; };
+		D2C77BB72AFC10DD00ACE8ED /* Managerment2_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB62AFC10DD00ACE8ED /* Managerment2_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +96,12 @@
 		D26F27432AFBCD20004CB532 /* Profile_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Card.swift; sourceTree = "<group>"; };
 		D26F27452AFBDC1D004CB532 /* Income_History_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income_History_View.swift; sourceTree = "<group>"; };
 		D26F27472AFBE81D004CB532 /* Transactions_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions_Card.swift; sourceTree = "<group>"; };
+		D2C77BAC2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_Code_Scan_View.swift; sourceTree = "<group>"; };
+		D2C77BAE2AFBF79E00ACE8ED /* QR_Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_Cards.swift; sourceTree = "<group>"; };
+		D2C77BB02AFBFF8500ACE8ED /* Managerment1_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managerment1_View.swift; sourceTree = "<group>"; };
+		D2C77BB22AFC0AE000ACE8ED /* Total_Income1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Income1.swift; sourceTree = "<group>"; };
+		D2C77BB42AFC0E1900ACE8ED /* Total_Income2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Income2.swift; sourceTree = "<group>"; };
+		D2C77BB62AFC10DD00ACE8ED /* Managerment2_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managerment2_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,9 @@
 				D26F273B2AFB2FEC004CB532 /* Overview.swift */,
 				D26F27412AFBC539004CB532 /* Income_View.swift */,
 				D26F27452AFBDC1D004CB532 /* Income_History_View.swift */,
+				D2C77BAC2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift */,
+				D2C77BB02AFBFF8500ACE8ED /* Managerment1_View.swift */,
+				D2C77BB62AFC10DD00ACE8ED /* Managerment2_View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +225,9 @@
 				D26F273F2AFBBCF7004CB532 /* Your_Cards .swift */,
 				D26F27432AFBCD20004CB532 /* Profile_Card.swift */,
 				D26F27472AFBE81D004CB532 /* Transactions_Card.swift */,
+				D2C77BAE2AFBF79E00ACE8ED /* QR_Cards.swift */,
+				D2C77BB22AFC0AE000ACE8ED /* Total_Income1.swift */,
+				D2C77BB42AFC0E1900ACE8ED /* Total_Income2.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -301,13 +319,18 @@
 				D26F270B2AF8540E004CB532 /* Onboarding_View.swift in Sources */,
 				D26F271B2AF8CF66004CB532 /* Transactions_history.swift in Sources */,
 				D26F273C2AFB2FEC004CB532 /* Overview.swift in Sources */,
+				D2C77BAF2AFBF79E00ACE8ED /* QR_Cards.swift in Sources */,
 				D26F27402AFBBCF7004CB532 /* Your_Cards .swift in Sources */,
+				D2C77BAD2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift in Sources */,
+				D2C77BB32AFC0AE000ACE8ED /* Total_Income1.swift in Sources */,
+				D2C77BB12AFBFF8500ACE8ED /* Managerment1_View.swift in Sources */,
 				D26F271F2AF90CE2004CB532 /* Card_Settings.swift in Sources */,
 				D26F27272AFA0601004CB532 /* Recent_Transactions1.swift in Sources */,
 				D26F270D2AF85555004CB532 /* OnboardingItems.swift in Sources */,
 				D26F26EA2AF8481A004CB532 /* ContentView.swift in Sources */,
 				D26F27422AFBC539004CB532 /* Income_View.swift in Sources */,
 				D26F27442AFBCD20004CB532 /* Profile_Card.swift in Sources */,
+				D2C77BB72AFC10DD00ACE8ED /* Managerment2_View.swift in Sources */,
 				D26F272D2AFA3227004CB532 /* Dashboard_View.swift in Sources */,
 				D26F27212AF9F221004CB532 /* Bank_Card.swift in Sources */,
 				D26F27102AF875A2004CB532 /* Create_Account_View.swift in Sources */,
@@ -325,6 +348,7 @@
 				D26F273A2AFB2839004CB532 /* Search.swift in Sources */,
 				D26F27232AF9F851004CB532 /* Playback_View.swift in Sources */,
 				D26F26E82AF8481A004CB532 /* BankingAppApp.swift in Sources */,
+				D2C77BB52AFC0E1900ACE8ED /* Total_Income2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

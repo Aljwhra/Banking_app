@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Token_Bonus1: View {
+struct Token_Bonus1: View { 
     
     @State private var fill: CGFloat = 0.0
     

@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="clipboard">
+<path id="Vector" d="M26.6667 6.66667H30.0001C30.8841 6.66667 31.732 7.01786 32.3571 7.64298C32.9822 8.2681 33.3334 9.11595 33.3334 10V33.3333C33.3334 34.2174 32.9822 35.0652 32.3571 35.6904C31.732 36.3155 30.8841 36.6667 30.0001 36.6667H10.0001C9.11603 36.6667 8.26818 36.3155 7.64306 35.6904C7.01794 35.0652 6.66675 34.2174 6.66675 33.3333V10C6.66675 9.11595 7.01794 8.2681 7.64306 7.64298C8.26818 7.01786 9.11603 6.66667 10.0001 6.66667H13.3334" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M24.9999 3.33333H14.9999C14.0794 3.33333 13.3333 4.07952 13.3333 4.99999V8.33333C13.3333 9.2538 14.0794 9.99999 14.9999 9.99999H24.9999C25.9204 9.99999 26.6666 9.2538 26.6666 8.33333V4.99999C26.6666 4.07952 25.9204 3.33333 24.9999 3.33333Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line id="Line 82" x1="13" y1="19" x2="27" y2="19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<line id="Line 83" x1="13" y1="24" x2="27" y2="24" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<line id="Line 84" x1="13" y1="29" x2="27" y2="29" stroke="white" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>

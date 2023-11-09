@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Profile_Card: View {
+struct Profile_Card1: View {
     
     var imageName: String
     var userName: String
@@ -68,5 +68,5 @@ struct Profile_Card: View {
 }
 
 #Preview {
-    Profile_Card(imageName: "a1", userName: "Jastan Beber", titile: "Your Card Limit", iconName: "chevron.right", suptitile: "5.876 USD of 5.907")
+    Profile_Card1(imageName: "a1", userName: "Jastan Beber", titile: "Your Card Limit", iconName: "chevron.right", suptitile: "5.876 USD of 5.907")
 }

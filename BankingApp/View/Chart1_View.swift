@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Chart_View: View {
+struct Chart1_View: View {
     var body: some View {
         NavigationStack{
             ScrollView{
@@ -33,7 +33,7 @@ struct Chart_View: View {
 }
 
 #Preview {
-    Chart_View()
+    Chart1_View()
 }
 
 

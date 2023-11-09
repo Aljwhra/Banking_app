@@ -20,7 +20,7 @@ struct Send_Money1_View: View {
                         .foregroundColor(.color1)
                 }.padding(.bottom,50)
                 
-                Profile_Card(imageName: "a1", userName: "Jastan Beber", titile: "Bank account number", iconName: "arrow.left.arrow.right", suptitile: "39020 0012")
+                Profile_Card1(imageName: "a1", userName: "Jastan Beber", titile: "Bank account number", iconName: "arrow.left.arrow.right", suptitile: "39020 0012")
                 
                 
                 

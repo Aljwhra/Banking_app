@@ -33,81 +33,17 @@ struct Statistic_Chart: View {
                     Image(systemName: "chevron.right")
                         .foregroundColor(.color1)
                 }.frame(width: 336, height: 40, alignment: .topLeading)
-                    .padding(.top,20)
+                .padding(.top,20)
                 
                 
-                
-                HStack{
+           
+                 
+               
+                 Image("Image")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: 340)
                     
-                    VStack{
-                        HStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(.mygray)
-                                .frame(width: 30, height: 133)
-                            
-                        }
-                        Text("Sat")
-                            .font(Font.custom("Space Grotesk", size: 14))
-                        
-                            .foregroundColor(Color.color3)
-                        
-                    }
-                    
-                    VStack{
-                        HStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(.mygreen)
-                                .frame(width: 30, height: 82)
-                            
-                        }
-                        Text("Sun")
-                            .font(Font.custom("Space Grotesk", size: 14))
-                    }
-                    
-                    VStack{
-                        HStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(.mygray)
-                                .frame(width: 30, height: 191)
-                            
-                        }
-                        Text("Mon")
-                            .font(Font.custom("Space Grotesk", size: 14))
-                    }
-                    
-                    VStack{
-                        HStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(.color2)
-                                .frame(width: 30, height: 235)
-                            
-                        }
-                        Text("Tues")
-                            .font(Font.custom("Space Grotesk", size: 14))
-                    }
-                    
-                    VStack{
-                        HStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(.mygray)
-                                .frame(width: 30, height: 117)
-                            
-                        }
-                        Text("Wed")
-                            .font(Font.custom("Space Grotesk", size: 14))
-                    }
-                    
-                    VStack{
-                        HStack{
-                            RoundedRectangle(cornerRadius: 20)
-                                .fill(.mygray)
-                                .frame(width: 30, height: 170)
-                            
-                        }
-                        Text("Thu")
-                            .font(Font.custom("Space Grotesk", size: 14))
-                    }
-                }.padding(.top,30)
                 
                 
                 

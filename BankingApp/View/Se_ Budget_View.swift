@@ -20,30 +20,28 @@ struct Set_Budget1_View: View {
     var body: some View {
         
         
-            ZStack {
+        VStack (spacing: 40){
                 Text("Set Budget")
                     .font(
                         Font.custom("Space Grotesk", size: 22)
                             .weight(.semibold)
                         
                     )
-                   // .padding(.top,-80)
+                  
                     .multilineTextAlignment(.center)
                     .foregroundColor(.white)
                     .background(
                         Rectangle()
                             .foregroundColor(.clear)
-                            .frame(width: 414, height: 361)
+                            .frame(width: 414, height: 550)
                             .background(Color(red: 0.34, green: 0.7, blue: 0.67))
                             .cornerRadius(35))
-                    .offset(y:-260)
-                Image("Image12")
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: 354,height: 331)
-            ScrollView{
+                   
 
-                
+              
+                CalendarView()
+            ScrollView{
+              
                 
                 HStack{
                     Text("January 8, Tuesday")
@@ -53,7 +51,7 @@ struct Set_Budget1_View: View {
                         )
                         .foregroundColor(Color(red: 0.35, green: 0.36, blue: 0.47))
                 }
-                .padding(.top,590)
+                .padding(.top,40)
                 .frame(width: 340, alignment: .leading)
                 
                 
@@ -61,12 +59,12 @@ struct Set_Budget1_View: View {
                     ForEach(Total_Balance1Arry) { balance1 in
                         balance1
                     }
-                }.padding(.top,20)
+                }
             }
             
         }
-        .frame(width: 414, height: 896)
-        .background(.white)
+        .frame(width: 414)
+       
     }
 }
 

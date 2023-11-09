@@ -72,9 +72,8 @@ struct Statistic_Chart: View {
             .padding()
             .background(
                 Rectangle()
-                    .foregroundColor(.clear)
+                    .fill(.white)
                     .frame(width: 414, height: .infinity)
-                    .background(.white)
                     .cornerRadius(30)
                 
             ).offset(y:100)

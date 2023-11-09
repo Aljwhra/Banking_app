@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D23110DF2AFCB5A1008BD5C9 /* Tab_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23110DE2AFCB5A1008BD5C9 /* Tab_View.swift */; };
+		D23110E12AFCD3E5008BD5C9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23110E02AFCD3E5008BD5C9 /* CalendarView.swift */; };
 		D26F26E82AF8481A004CB532 /* BankingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F26E72AF8481A004CB532 /* BankingAppApp.swift */; };
 		D26F26EA2AF8481A004CB532 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F26E92AF8481A004CB532 /* ContentView.swift */; };
 		D26F26EC2AF8481B004CB532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26F26EB2AF8481B004CB532 /* Assets.xcassets */; };
@@ -78,6 +80,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D23110DE2AFCB5A1008BD5C9 /* Tab_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab_View.swift; sourceTree = "<group>"; };
+		D23110E02AFCD3E5008BD5C9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		D26F26E42AF8481A004CB532 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26F26E72AF8481A004CB532 /* BankingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingAppApp.swift; sourceTree = "<group>"; };
 		D26F26E92AF8481A004CB532 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -232,6 +236,7 @@
 				D2C77BE02AFC960900ACE8ED /* Budgeting_View.swift */,
 				D2C77BE22AFC995800ACE8ED /* Se_ Budget_View.swift */,
 				D2C77BE42AFC9EEA00ACE8ED /* Set_Budget2_View.swift */,
+				D23110DE2AFCB5A1008BD5C9 /* Tab_View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				D2C77BD02AFC630100ACE8ED /* Token_Bonus3.swift */,
 				D2C77BD62AFC718F00ACE8ED /* Profile_Card2.swift */,
 				D2C77BDC2AFC874800ACE8ED /* Popular_Operations.swift */,
+				D23110E02AFCD3E5008BD5C9 /* CalendarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -430,8 +436,10 @@
 				D26F272B2AFA18A7004CB532 /* Statistic_Chart.swift in Sources */,
 				D26F27462AFBDC1D004CB532 /* Income_History_View.swift in Sources */,
 				D26F27312AFA4ED8004CB532 /* Token_Bonus1.swift in Sources */,
+				D23110E12AFCD3E5008BD5C9 /* CalendarView.swift in Sources */,
 				D26F272F2AFA4A95004CB532 /* Card_Balance.swift in Sources */,
 				D26F27122AF88FFD004CB532 /* Sign_In_View.swift in Sources */,
+				D23110DF2AFCB5A1008BD5C9 /* Tab_View.swift in Sources */,
 				D2C77BDF2AFC920200ACE8ED /* Portfolio_View.swift in Sources */,
 				D2C77BBD2AFC291600ACE8ED /* Chart1_View.swift in Sources */,
 				D26F27162AF8A27E004CB532 /* Chart_card.swift in Sources */,

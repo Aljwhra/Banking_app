@@ -70,3 +70,4 @@ struct Profile_Card1: View {
 #Preview {
     Profile_Card1(imageName: "a1", userName: "Jastan Beber", titile: "Your Card Limit", iconName: "chevron.right", suptitile: "5.876 USD of 5.907")
 }
+

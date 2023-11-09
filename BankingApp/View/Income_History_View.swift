@@ -85,11 +85,8 @@ struct Income_History_View: View {
                         Text("09 April, 2021")
                             .font(.custom("SpaceGrotesk-semibold", size: 18))
                             .foregroundColor(Color.color3)
-                            
                         
                     }.frame(width: 350, alignment: .topLeading)
-                    
-                    
                     
                     VStack(spacing: 35){
                         
@@ -99,14 +96,7 @@ struct Income_History_View: View {
                         
                     }
                     
-                    
-                    
-                    
                 }.frame(maxWidth: .infinity)
-                
-                
-                
-                
                 
             }
             

@@ -51,7 +51,7 @@ struct Dashboard_View: View {
                     .padding(.top,40)
                 
                     
-                    HStack(spacing: 60){
+                    HStack(spacing: 55){
                         ForEach(CardBalanceArry) { balance in
                             balance
                         }
@@ -75,10 +75,10 @@ struct Dashboard_View: View {
                         
                     } .frame(width: 300, height: 40, alignment: .topLeading)
                     
-                    HStack(spacing: 70){
+                    HStack(spacing: 65){
                         
                         Token_Bonus1()
-                        VStack(spacing:40){
+                        VStack(spacing:45){
                             ForEach(TokenBonus2Arry) { bonus2 in
                                 bonus2
                             }

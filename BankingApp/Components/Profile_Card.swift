@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct Profile_Card: View {
+    
+    var imageName: String
+    var userName: String
+    var titile: String
+    var iconName: String
+    var suptitile: String
+    
+    
     var body: some View {
         
         HStack{
             
-            Image("a1")
+            Image(imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 80, height: 80)
@@ -21,7 +29,7 @@ struct Profile_Card: View {
            Spacer()
             
             VStack{
-                Text("Jastan Beber")
+                Text(userName)
                     .font(.custom("SpaceGrotesk-semibold", size: 18))
                 
                 
@@ -30,20 +38,20 @@ struct Profile_Card: View {
                     
                     VStack(spacing: 10){
                         HStack{
-                            Text("Your Card Limit")
-                                .font(.custom("Space Grotesk", size: 14))
+                            Text(titile)
+                                .font(.custom("Space Grotesk", size: 13))
                                 
-                            Image(systemName: "chevron.right")
+                            Image(systemName: iconName)
                                 .padding(.leading,20)
                         }
                         
-                        Text("5.876 USD of 5.907")
+                        Text(suptitile)
                             .font(.custom("SpaceGrotesk-semibold", size: 14))
                         
                     }
                 }
             }.foregroundColor(.white)
-                .frame(width: 230, alignment: .leading)
+                .frame(width: 240, alignment: .leading)
             
             
         }
@@ -60,5 +68,5 @@ struct Profile_Card: View {
 }
 
 #Preview {
-    Profile_Card()
+    Profile_Card(imageName: "a1", userName: "Jastan Beber", titile: "Your Card Limit", iconName: "chevron.right", suptitile: "5.876 USD of 5.907")
 }

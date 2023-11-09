@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Income_View: View {
+struct Income1_View: View {
     var body: some View {
         NavigationStack{
            
@@ -38,7 +38,7 @@ struct Income_View: View {
                     
                     chart()
                     
-                    Profile_Card()
+                Profile_Card(imageName: "a1", userName: "Jastan Beber", titile: "Your Card Limit", iconName: "chevron.right", suptitile: "5.876 USD of 5.907")
                     
                     
                 
@@ -55,7 +55,7 @@ struct Income_View: View {
 }
 
 #Preview {
-    Income_View()
+    Income1_View()
 }
 
 struct chart: View {

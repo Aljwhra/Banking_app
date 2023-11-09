@@ -7,14 +7,13 @@
 
 import SwiftUI
 
-struct Token_Bonus1: View { 
+struct Token_Bonus1: View {
     
     @State private var fill: CGFloat = 0.0
     
     var body: some View {
         ZStack{
-            
-            
+             
             Circle()
                 .stroke(Color.myyellow.opacity(0.1), style: StrokeStyle(lineWidth: 10))
             

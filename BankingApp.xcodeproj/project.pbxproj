@@ -39,10 +39,10 @@
 		D26F27332AFA5A13004CB532 /* Token_Bonus2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27322AFA5A13004CB532 /* Token_Bonus2.swift */; };
 		D26F27352AFAB3F3004CB532 /* Recent_Transactions2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27342AFAB3F3004CB532 /* Recent_Transactions2.swift */; };
 		D26F273A2AFB2839004CB532 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27392AFB2839004CB532 /* Search.swift */; };
-		D26F273C2AFB2FEC004CB532 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273B2AFB2FEC004CB532 /* Overview.swift */; };
+		D26F273C2AFB2FEC004CB532 /* Overview_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273B2AFB2FEC004CB532 /* Overview_View.swift */; };
 		D26F273E2AFB3424004CB532 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273D2AFB3424004CB532 /* Client.swift */; };
 		D26F27402AFBBCF7004CB532 /* Your_Cards .swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F273F2AFBBCF7004CB532 /* Your_Cards .swift */; };
-		D26F27422AFBC539004CB532 /* Income_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27412AFBC539004CB532 /* Income_View.swift */; };
+		D26F27422AFBC539004CB532 /* Income1_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27412AFBC539004CB532 /* Income1_View.swift */; };
 		D26F27442AFBCD20004CB532 /* Profile_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27432AFBCD20004CB532 /* Profile_Card.swift */; };
 		D26F27462AFBDC1D004CB532 /* Income_History_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27452AFBDC1D004CB532 /* Income_History_View.swift */; };
 		D26F27482AFBE81D004CB532 /* Transactions_Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26F27472AFBE81D004CB532 /* Transactions_Card.swift */; };
@@ -52,6 +52,20 @@
 		D2C77BB32AFC0AE000ACE8ED /* Total_Income1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB22AFC0AE000ACE8ED /* Total_Income1.swift */; };
 		D2C77BB52AFC0E1900ACE8ED /* Total_Income2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB42AFC0E1900ACE8ED /* Total_Income2.swift */; };
 		D2C77BB72AFC10DD00ACE8ED /* Managerment2_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB62AFC10DD00ACE8ED /* Managerment2_View.swift */; };
+		D2C77BB92AFC1D9B00ACE8ED /* Send_Money1_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BB82AFC1D9B00ACE8ED /* Send_Money1_View.swift */; };
+		D2C77BBB2AFC263200ACE8ED /* My_Budget_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BBA2AFC263200ACE8ED /* My_Budget_View.swift */; };
+		D2C77BBD2AFC291600ACE8ED /* Chart_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BBC2AFC291600ACE8ED /* Chart_View.swift */; };
+		D2C77BBF2AFC297800ACE8ED /* Hader_Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BBE2AFC297800ACE8ED /* Hader_Chart.swift */; };
+		D2C77BC12AFC372F00ACE8ED /* Congratulations_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BC02AFC372F00ACE8ED /* Congratulations_View.swift */; };
+		D2C77BC32AFC3BCB00ACE8ED /* Send_Money2_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BC22AFC3BCB00ACE8ED /* Send_Money2_View.swift */; };
+		D2C77BC52AFC418400ACE8ED /* Deposits_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BC42AFC418400ACE8ED /* Deposits_View.swift */; };
+		D2C77BC72AFC466300ACE8ED /* Select_frequency_num.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BC62AFC466300ACE8ED /* Select_frequency_num.swift */; };
+		D2C77BC92AFC49DF00ACE8ED /* Interest_Payment .swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BC82AFC49DF00ACE8ED /* Interest_Payment .swift */; };
+		D2C77BCB2AFC51A200ACE8ED /* Total_Balance1_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BCA2AFC51A200ACE8ED /* Total_Balance1_View.swift */; };
+		D2C77BCD2AFC55DB00ACE8ED /* Total_Balance1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BCC2AFC55DB00ACE8ED /* Total_Balance1.swift */; };
+		D2C77BCF2AFC610C00ACE8ED /* Total_Balance2_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BCE2AFC610C00ACE8ED /* Total_Balance2_View.swift */; };
+		D2C77BD12AFC630100ACE8ED /* Token_Bonus3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BD02AFC630100ACE8ED /* Token_Bonus3.swift */; };
+		D2C77BD32AFC6B8200ACE8ED /* Income2_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C77BD22AFC6B8200ACE8ED /* Income2_View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,10 +103,10 @@
 		D26F27322AFA5A13004CB532 /* Token_Bonus2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Bonus2.swift; sourceTree = "<group>"; };
 		D26F27342AFAB3F3004CB532 /* Recent_Transactions2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recent_Transactions2.swift; sourceTree = "<group>"; };
 		D26F27392AFB2839004CB532 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
-		D26F273B2AFB2FEC004CB532 /* Overview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		D26F273B2AFB2FEC004CB532 /* Overview_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overview_View.swift; sourceTree = "<group>"; };
 		D26F273D2AFB3424004CB532 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		D26F273F2AFBBCF7004CB532 /* Your_Cards .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Your_Cards .swift"; sourceTree = "<group>"; };
-		D26F27412AFBC539004CB532 /* Income_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income_View.swift; sourceTree = "<group>"; };
+		D26F27412AFBC539004CB532 /* Income1_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income1_View.swift; sourceTree = "<group>"; };
 		D26F27432AFBCD20004CB532 /* Profile_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Card.swift; sourceTree = "<group>"; };
 		D26F27452AFBDC1D004CB532 /* Income_History_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income_History_View.swift; sourceTree = "<group>"; };
 		D26F27472AFBE81D004CB532 /* Transactions_Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions_Card.swift; sourceTree = "<group>"; };
@@ -102,6 +116,20 @@
 		D2C77BB22AFC0AE000ACE8ED /* Total_Income1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Income1.swift; sourceTree = "<group>"; };
 		D2C77BB42AFC0E1900ACE8ED /* Total_Income2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Income2.swift; sourceTree = "<group>"; };
 		D2C77BB62AFC10DD00ACE8ED /* Managerment2_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Managerment2_View.swift; sourceTree = "<group>"; };
+		D2C77BB82AFC1D9B00ACE8ED /* Send_Money1_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Money1_View.swift; sourceTree = "<group>"; };
+		D2C77BBA2AFC263200ACE8ED /* My_Budget_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Budget_View.swift; sourceTree = "<group>"; };
+		D2C77BBC2AFC291600ACE8ED /* Chart_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart_View.swift; sourceTree = "<group>"; };
+		D2C77BBE2AFC297800ACE8ED /* Hader_Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hader_Chart.swift; sourceTree = "<group>"; };
+		D2C77BC02AFC372F00ACE8ED /* Congratulations_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congratulations_View.swift; sourceTree = "<group>"; };
+		D2C77BC22AFC3BCB00ACE8ED /* Send_Money2_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Send_Money2_View.swift; sourceTree = "<group>"; };
+		D2C77BC42AFC418400ACE8ED /* Deposits_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deposits_View.swift; sourceTree = "<group>"; };
+		D2C77BC62AFC466300ACE8ED /* Select_frequency_num.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Select_frequency_num.swift; sourceTree = "<group>"; };
+		D2C77BC82AFC49DF00ACE8ED /* Interest_Payment .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Interest_Payment .swift"; sourceTree = "<group>"; };
+		D2C77BCA2AFC51A200ACE8ED /* Total_Balance1_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Balance1_View.swift; sourceTree = "<group>"; };
+		D2C77BCC2AFC55DB00ACE8ED /* Total_Balance1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Balance1.swift; sourceTree = "<group>"; };
+		D2C77BCE2AFC610C00ACE8ED /* Total_Balance2_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Total_Balance2_View.swift; sourceTree = "<group>"; };
+		D2C77BD02AFC630100ACE8ED /* Token_Bonus3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token_Bonus3.swift; sourceTree = "<group>"; };
+		D2C77BD22AFC6B8200ACE8ED /* Income2_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Income2_View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,12 +192,21 @@
 				D26F27222AF9F851004CB532 /* Playback_View.swift */,
 				D26F27282AFA1473004CB532 /* Statistic_View.swift */,
 				D26F272C2AFA3227004CB532 /* Dashboard_View.swift */,
-				D26F273B2AFB2FEC004CB532 /* Overview.swift */,
-				D26F27412AFBC539004CB532 /* Income_View.swift */,
+				D26F273B2AFB2FEC004CB532 /* Overview_View.swift */,
+				D26F27412AFBC539004CB532 /* Income1_View.swift */,
 				D26F27452AFBDC1D004CB532 /* Income_History_View.swift */,
 				D2C77BAC2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift */,
 				D2C77BB02AFBFF8500ACE8ED /* Managerment1_View.swift */,
 				D2C77BB62AFC10DD00ACE8ED /* Managerment2_View.swift */,
+				D2C77BB82AFC1D9B00ACE8ED /* Send_Money1_View.swift */,
+				D2C77BBA2AFC263200ACE8ED /* My_Budget_View.swift */,
+				D2C77BBC2AFC291600ACE8ED /* Chart_View.swift */,
+				D2C77BC02AFC372F00ACE8ED /* Congratulations_View.swift */,
+				D2C77BC22AFC3BCB00ACE8ED /* Send_Money2_View.swift */,
+				D2C77BC42AFC418400ACE8ED /* Deposits_View.swift */,
+				D2C77BCA2AFC51A200ACE8ED /* Total_Balance1_View.swift */,
+				D2C77BCE2AFC610C00ACE8ED /* Total_Balance2_View.swift */,
+				D2C77BD22AFC6B8200ACE8ED /* Income2_View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,6 +265,11 @@
 				D2C77BAE2AFBF79E00ACE8ED /* QR_Cards.swift */,
 				D2C77BB22AFC0AE000ACE8ED /* Total_Income1.swift */,
 				D2C77BB42AFC0E1900ACE8ED /* Total_Income2.swift */,
+				D2C77BBE2AFC297800ACE8ED /* Hader_Chart.swift */,
+				D2C77BC62AFC466300ACE8ED /* Select_frequency_num.swift */,
+				D2C77BC82AFC49DF00ACE8ED /* Interest_Payment .swift */,
+				D2C77BCC2AFC55DB00ACE8ED /* Total_Balance1.swift */,
+				D2C77BD02AFC630100ACE8ED /* Token_Bonus3.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -314,21 +356,30 @@
 				D26F27352AFAB3F3004CB532 /* Recent_Transactions2.swift in Sources */,
 				D26F27192AF8B07B004CB532 /* Transactions.swift in Sources */,
 				D26F27292AFA1473004CB532 /* Statistic_View.swift in Sources */,
+				D2C77BCF2AFC610C00ACE8ED /* Total_Balance2_View.swift in Sources */,
+				D2C77BC72AFC466300ACE8ED /* Select_frequency_num.swift in Sources */,
 				D26F26F82AF84AFE004CB532 /* Welcome_View.swift in Sources */,
 				D26F27482AFBE81D004CB532 /* Transactions_Card.swift in Sources */,
+				D2C77BD12AFC630100ACE8ED /* Token_Bonus3.swift in Sources */,
+				D2C77BC92AFC49DF00ACE8ED /* Interest_Payment .swift in Sources */,
 				D26F270B2AF8540E004CB532 /* Onboarding_View.swift in Sources */,
 				D26F271B2AF8CF66004CB532 /* Transactions_history.swift in Sources */,
-				D26F273C2AFB2FEC004CB532 /* Overview.swift in Sources */,
+				D26F273C2AFB2FEC004CB532 /* Overview_View.swift in Sources */,
 				D2C77BAF2AFBF79E00ACE8ED /* QR_Cards.swift in Sources */,
 				D26F27402AFBBCF7004CB532 /* Your_Cards .swift in Sources */,
 				D2C77BAD2AFBF51C00ACE8ED /* QR_Code_Scan_View.swift in Sources */,
+				D2C77BB92AFC1D9B00ACE8ED /* Send_Money1_View.swift in Sources */,
 				D2C77BB32AFC0AE000ACE8ED /* Total_Income1.swift in Sources */,
 				D2C77BB12AFBFF8500ACE8ED /* Managerment1_View.swift in Sources */,
 				D26F271F2AF90CE2004CB532 /* Card_Settings.swift in Sources */,
 				D26F27272AFA0601004CB532 /* Recent_Transactions1.swift in Sources */,
 				D26F270D2AF85555004CB532 /* OnboardingItems.swift in Sources */,
+				D2C77BBB2AFC263200ACE8ED /* My_Budget_View.swift in Sources */,
+				D2C77BCD2AFC55DB00ACE8ED /* Total_Balance1.swift in Sources */,
 				D26F26EA2AF8481A004CB532 /* ContentView.swift in Sources */,
-				D26F27422AFBC539004CB532 /* Income_View.swift in Sources */,
+				D2C77BC52AFC418400ACE8ED /* Deposits_View.swift in Sources */,
+				D2C77BCB2AFC51A200ACE8ED /* Total_Balance1_View.swift in Sources */,
+				D26F27422AFBC539004CB532 /* Income1_View.swift in Sources */,
 				D26F27442AFBCD20004CB532 /* Profile_Card.swift in Sources */,
 				D2C77BB72AFC10DD00ACE8ED /* Managerment2_View.swift in Sources */,
 				D26F272D2AFA3227004CB532 /* Dashboard_View.swift in Sources */,
@@ -338,14 +389,19 @@
 				D26F27332AFA5A13004CB532 /* Token_Bonus2.swift in Sources */,
 				D26F271D2AF8F385004CB532 /* Services_View.swift in Sources */,
 				D26F273E2AFB3424004CB532 /* Client.swift in Sources */,
+				D2C77BD32AFC6B8200ACE8ED /* Income2_View.swift in Sources */,
+				D2C77BBF2AFC297800ACE8ED /* Hader_Chart.swift in Sources */,
+				D2C77BC32AFC3BCB00ACE8ED /* Send_Money2_View.swift in Sources */,
 				D26F272B2AFA18A7004CB532 /* Statistic_Chart.swift in Sources */,
 				D26F27462AFBDC1D004CB532 /* Income_History_View.swift in Sources */,
 				D26F27312AFA4ED8004CB532 /* Token_Bonus1.swift in Sources */,
 				D26F272F2AFA4A95004CB532 /* Card_Balance.swift in Sources */,
 				D26F27122AF88FFD004CB532 /* Sign_In_View.swift in Sources */,
+				D2C77BBD2AFC291600ACE8ED /* Chart_View.swift in Sources */,
 				D26F27162AF8A27E004CB532 /* Chart_card.swift in Sources */,
 				D26F27252AFA024E004CB532 /* Bank_Small_Card.swift in Sources */,
 				D26F273A2AFB2839004CB532 /* Search.swift in Sources */,
+				D2C77BC12AFC372F00ACE8ED /* Congratulations_View.swift in Sources */,
 				D26F27232AF9F851004CB532 /* Playback_View.swift in Sources */,
 				D26F26E82AF8481A004CB532 /* BankingAppApp.swift in Sources */,
 				D2C77BB52AFC0E1900ACE8ED /* Total_Income2.swift in Sources */,
